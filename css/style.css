@@ -26,6 +26,8 @@ h5{
 }
 p{
 	font-family: 'Open Sans', sans-serif;
+	line-height: 200%;
+	letter-spacing: 1px;
 }
 p.intro{
 	font-size: 16px;
@@ -260,8 +262,8 @@ img.img-circle.team-img {
 	color: #F2F2F2;
 }
 
-#tf-team p {
-	line-height: 200%;
+#team p{
+	line-height: 250%;
 }
 
 .owl-theme .owl-controls .owl-page span {
