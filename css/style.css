@@ -26,6 +26,8 @@ h5{
 }
 p{
 	font-family: 'Open Sans', sans-serif;
+	line-height: 200%;
+	letter-spacing: 1px;
 }
 p.intro{
 	font-size: 16px;
@@ -138,10 +140,15 @@ font-weight: 900;
 .content{
 	position: relative;
 	padding: 20% 0 0;
+	letter-spacing: 2px;
 }
 
 .color{
 	color: #fcac45;
+}
+
+#tf-home .color{
+	letter-spacing: 3px;
 }
 
 a.fa.fa-angle-down {
@@ -255,6 +262,10 @@ img.img-circle.team-img {
 	color: #F2F2F2;
 }
 
+#team p{
+	line-height: 250%;
+}
+
 .owl-theme .owl-controls .owl-page span {
 	display: block;
 	width: 10px;
@@ -310,7 +321,7 @@ img.img-circle.team-img {
 }
 
 #tf-services .row p {
-	line-height: 200%;
+	line-height: 250%;
 }
 /* Clients Section */
 #tf-clients{
